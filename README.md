@@ -28,7 +28,7 @@ kafka-topics --create --topic test_topic --bootstrap-server localhost:9092 --rep
 ```
 
 ### Note
-Replication factor: <factor> can be more than available brokers
+Replication factor: <factor> can't be more than available brokers
 ###
 
 To check messages on kafka topic
